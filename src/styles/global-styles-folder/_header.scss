@@ -1,0 +1,35 @@
+header {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 2%;
+
+  h1 {
+    display: flex;
+    width: 100%;
+    align-self: flex-start;
+  }
+}
+
+.navContainer {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+
+  nav {
+    width: 100%;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    li {
+      padding: 2%;
+      list-style: none;
+    }
+  }
+}
