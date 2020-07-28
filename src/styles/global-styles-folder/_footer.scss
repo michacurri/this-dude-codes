@@ -1,0 +1,40 @@
+footer {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+
+  @include media(tablet) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  ul {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include media(tablet) {
+      width: unset;
+      justify-content: flex-start;
+    }
+  }
+  
+  li {
+    list-style: none;
+    margin: 0 10%;
+  }
+  
+  a {
+    padding: 2%;
+  }
+
+  h5 {
+    margin: 1%;
+  }
+
+}
