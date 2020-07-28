@@ -1,0 +1,24 @@
+.mainAbout {
+  width: 100vw;
+  min-height: 75vh;
+  background-image: url(../../assets/tdc-garibaldi-nightsky-about.jpg);
+  background-size: cover;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  section {
+    background-color: rgba(0,0,0,0.4);
+    margin: 5% 0;
+    padding: 4%;
+  }
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+

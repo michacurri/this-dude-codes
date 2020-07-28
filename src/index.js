@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker'; 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faLinkedin, faCss3, faJs, faHtml5, faSass, faReact } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faGithub, faTwitter, faLinkedin)
+library.add(faGithub, faTwitter, faLinkedin, faCss3, faJs, faGithub, faHtml5, faSass, faReact)
 
 ReactDOM.render(
   <React.StrictMode>

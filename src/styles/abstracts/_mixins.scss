@@ -1,0 +1,30 @@
+// media queries
+
+@mixin media($media) {
+  @if $media == mobile {
+    @media only screen and (max-width: 549px) { @content; }
+  } @else if $media == lgMobile {
+    @media only screen and (min-width: 550px) { @content; }
+  } @else if $media == tablet {
+    @media only screen and (min-width: 768px) { @content; }
+  } @else if $media == laptop {
+    @media only screen and (min-width: 769px) { @content; }
+  } @else if $media == fullscreen {
+    @media only screen and (min-width: 900px) { @content; }
+  }
+}
+
+@mixin innerWrapper {
+  width: 90%;
+  max-width: ($maxWidth * 1px);
+  height: 100%;
+  margin: 2% auto;
+}
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin flexColumn {
+  flex-direction: column;
+}
