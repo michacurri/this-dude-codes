@@ -10,7 +10,6 @@ const Footer = () => {
         <li><a href="https://twitter.com/thisdudecodes" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'twitter']} /></a></li>
       </ul>
       <h5>&copy; thisdude.codes 2020</h5>
-      {/* <h5>credits</h5> */}
     </footer>
   )
 }
