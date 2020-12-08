@@ -9,22 +9,15 @@ const About = () => {
         </h2>
         <p>Passionate about adventure, good design, and tacos.</p>
         <p>
-          Hard-working, honest, motivated and experienced. Now in my
-          mid-thirties, with career highlights in B2B sales; client management;
-          entrepreneurship; business operations; and retail operations, I am
-          adding Front-End Web-Development to my quiver.
+          Hard-working, honest, motivated and experienced. With career
+          highlights in B2B sales; client management; entrepreneurship; business
+          operations; and retail operations, I am adding Web-Development to my
+          quiver.
         </p>
         <p>
-          I recently graduated Juno College's (formerly HackerYou) WebDev
-          Bootcamp (Cohort 27, Spring 2020), and will be attending their
-          Full-Stack Masterclass in the Fall of 2020, learning back-end
-          foundational concepts. Basically, I am serious about this field and am
-          pushing my limits to be as good as I can be.
-        </p>
-        <p>
-          I am currently seeking a full-time Junior Developer role in the
-          Toronto area; if I seem like the kind of person you want to meet for
-          coffee over a zoom-chat, lets get in touch.
+          A recent graduate of Juno College's Bootcamp (Cohort 27, Spring 2020),
+          and Full-Stack Masterclass, I have gained the fundamentals of front
+          and back-end development concepts using the latest web technologies.
         </p>
         <div className="contactContainer">
           <div className="contactSocialBox">
