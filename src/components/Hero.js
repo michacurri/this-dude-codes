@@ -26,10 +26,10 @@ const Hero = () => {
       </header>
       <Switch>
         <Route exact path="/" component={Home} className="underline" />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        {/* <Route exact path="/blog" component={Blog} /> */}
-        <Route exact path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+        {/* <Route path="/blog" component={Blog} /> */}
+        <Route path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </Router>
