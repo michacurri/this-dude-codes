@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -7,7 +7,6 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-
 const Home = () => (
   <div className="homeContainer">
     <h1>{"{ codes }"} = thisDude</h1>
@@ -15,7 +14,6 @@ const Home = () => (
 );
 
 const Hero = () => {
-
   return (
     <Router>
       <header id="header">
@@ -26,10 +24,10 @@ const Hero = () => {
       </header>
       <Switch>
         <Route exact path="/" component={Home} className="underline" />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/about" render={() => <About />} />
+        <Route path="/portfolio" render={() => <Portfolio />} />
         {/* <Route path="/blog" component={Blog} /> */}
-        <Route path="/contact" component={Contact} />
+        <Route path="/contact" render={() => <Contact />} />
       </Switch>
       <Footer />
     </Router>
