@@ -368,7 +368,6 @@ svg {
 
 #header {
   height: 13vh;
-  width: 100vw;
   padding: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -517,7 +516,6 @@ body {
 }
 
 footer {
-  width: 100vw;
   height: 12vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -581,7 +579,6 @@ footer h5 {
 }
 
 .homeContainer {
-  width: 100vw;
   height: 75vh;
   background-image: url(../../assets/tdc-milky-way-background.jpg);
   background-size: cover;
@@ -599,9 +596,8 @@ footer h5 {
 }
 
 .mainAbout {
-  width: 100vw;
   min-height: 75vh;
-  background-image: url(../../assets/tdc-garibaldi-nightsky-about.jpg);
+  background-color: #283044;
   background-size: cover;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -633,7 +629,6 @@ footer h5 {
 }
 
 .blogBackground {
-  width: 100vw;
   background-image: url(../../assets/comet.jpg);
   background-size: cover;
   background-position: bottom left;
@@ -664,6 +659,24 @@ footer h5 {
 h2,
 p {
   text-align: center;
+}
+
+#aero {
+  background-color: #33415C;
+}
+
+@media only screen and (min-width: 768px) {
+  #aero h2,
+  #aero p {
+    text-align: right;
+  }
+}
+
+#aero .portfolioIconBox {
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+  -ms-grid-rows: 8vh;
+      grid-template-rows: 8vh;
 }
 
 #beatmaker {

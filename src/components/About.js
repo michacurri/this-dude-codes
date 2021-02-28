@@ -33,7 +33,7 @@ const About = () => {
           <div className="contactResumeBox">
             <h5>Resume</h5>
             <a
-              href="./about/currieMichael_resume.pdf"
+              href="../static/assets/resume/currieMichael_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

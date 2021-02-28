@@ -3,6 +3,22 @@ p {
   text-align: center;
 }
 
+#aero {
+  background-color: #33415C;
+
+  @include media(tablet) {
+    h2,
+    p {
+      text-align: right;
+    }
+  }
+
+  .portfolioIconBox {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 8vh;
+  }
+}
+
 #beatmaker {
   background-color: #66666e;
 
